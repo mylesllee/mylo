@@ -1,0 +1,272 @@
+.image-title2{
+    display: inline-block;
+    position: absolute;
+    font-family: arial;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 60px;
+    background: linear-gradient(196deg, #45f3ff 25%, #ffea70 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.image-title3{
+    display: inline-block;
+    position: absolute;
+    font-family: arial;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 60px;
+    background: linear-gradient(196deg, #45f3ff 25%, #ffea70 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.image-title4{
+    display: inline-block;
+    position: absolute;
+    font-family: arial;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 60px;
+    background: linear-gradient(196deg, #45f3ff 25%, #ffea70 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.image-title5{
+    display: inline-block;
+    position: absolute;
+    font-family: arial;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 60px;
+    background: linear-gradient(196deg, #45f3ff 25%, #ffea70 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.image-title6{
+    display: inline-block;
+    position: absolute;
+    font-family: arial;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 60px;
+    background: linear-gradient(196deg, #45f3ff 25%, #ffea70 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.city-building{
+    position: absolute;
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    color: aliceblue;
+    top: 760px;
+    left: 230px;
+}
+.girl{
+    position: absolute;
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    color: aliceblue;
+    top: 760px;
+    left: 660px;
+}
+.abstract-art{
+    position: absolute;
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    color: aliceblue;
+    top: 760px;
+    left: 1090px;
+    
+}
+.words-wallpaper{
+    position: absolute;
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    color: aliceblue;
+    top: 1100px;
+    left: 230px;
+}
+.game{
+    position: absolute;
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    color: aliceblue;
+    top: 1100px;
+    left: 660px;
+}
+.fernando{
+    position: absolute;
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    color: aliceblue;
+    top: 1100px;
+    left: 1090px;
+}
+.back{
+    display: block;
+    height: 1000px;
+}
+.planediv{
+    display: inline-block;
+    position: absolute;
+    background-color: gold;
+    top: 1260px;
+    height: 170px;
+    width: 220px;
+
+}
+.planediv2{
+    display: inline-block;
+    position: absolute;
+    background-color: gold;
+    top: 1260px;
+    height: 170px;
+    width: 220px;
+    left: 420px;
+}
+.planediv3{
+    display: inline-block;
+    position: absolute;
+    background-color: gold;
+    top: 1260px;
+    height: 170px;
+    width: 220px;
+    left: 870px;
+}
+.planediv3{
+    display: inline-block;
+    position: absolute;
+    background-color: gold;
+    top: 860px;
+    height: 30px;
+    width: 820px;
+    left: 120px;
+    opacity: 0.3;
+}
+.download{
+    position: absolute;
+    display: inline-block;
+    background-color: blanchedalmond;
+    top: 920px;
+    left: 230px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: arial;
+    font-size: 20px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #45f3ff 3%, #ffea70 50%);
+    -webkit-background-clip: border-box;
+    
+}.download2-1{
+    position: absolute;
+    display: inline-block;
+    background-color: blanchedalmond;
+    top: 920px;
+    left: 660px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: arial;
+    font-size: 20px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #45f3ff 3%, #ffea70 50%);
+    -webkit-background-clip: border-box; 
+}
+.download3-1{
+    position: absolute;
+    display: inline-block;
+    background-color: blanchedalmond;
+    top: 920px;
+    left: 1090px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: arial;
+    font-size: 20px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #45f3ff 3%, #ffea70 50%);
+    -webkit-background-clip: border-box; 
+}
+.download4-1{
+    position: absolute;
+    display: inline-block;
+    background-color: blanchedalmond;
+    top: 1260px;
+    left: 230px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: arial;
+    font-size: 20px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #45f3ff 3%, #ffea70 50%);
+    -webkit-background-clip: border-box;
+    
+}.download5-1{
+    position: absolute;
+    display: inline-block;
+    background-color: blanchedalmond;
+    top: 1260px;
+    left: 660px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: arial;
+    font-size: 20px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #45f3ff 3%, #ffea70 50%);
+    -webkit-background-clip: border-box; 
+}
+.download6-1{
+    position: absolute;
+    display: inline-block;
+    background-color: blanchedalmond;
+    top: 1260px;
+    left: 1090px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: arial;
+    font-size: 20px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #45f3ff 3%, #ffea70 50%);
+    -webkit-background-clip: border-box; 
+}
+a:-webkit-any-link{
+    color: #ffea70;
+    font-size: 3px;
+}
+.conclusion{
+    font-family: arial;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    color: #ebe7e7;
+    text-align: center;
+    left: 250px;
+    top: 1500px;
+}
+.lasttick{
+    display: inline-block;
+    position: absolute;
+    height: 50px;
+    left: 385px;
+}
+

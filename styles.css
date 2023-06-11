@@ -1,0 +1,299 @@
+.meet{
+    font-family: arial;
+    font-size: 50px;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    padding-left: 10px;
+    top: 100px;
+}
+.everton{
+    display: block;
+    width: 1300px;
+}
+.reforgeting{
+    position: absolute;
+    display: inline-block;
+    top: 235px;
+    padding-left: 13px;
+    font-family: arial;
+    font-size: 17px;
+    line-height: 20px;
+    color: aliceblue;
+}
+.buttona{
+    position: absolute;
+    box-shadow: rgba(0, 0, 9, 0.9);
+    top: 270px;
+    left: 100px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    background-color: #00a2ff;
+    color: aliceblue;
+    font-family: arial;
+    font-size: 20px;
+    
+}
+.buttona:hover{
+    background-color: #ffea70;
+    color: black;
+    transition-delay: 0.2s;
+    
+    
+}
+.search{
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;
+    border: none;
+    font-family: arial;
+    font-size: 20px;
+    padding-left: 40px;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.search:hover{
+    background-color: #ffea70;
+}
+.login{
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(94, 233, 233, 0.3);
+    
+    top: 30%;
+    right: 70px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-top: 20px;
+    background: -o-linear-gradient(0deg,transparent,#45f3ff,#45f3ff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+    border-radius: 10px;
+    
+}
+.username, .password {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 15px;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.username:hover{
+    background-color: #ffea70;
+}
+.password:hover{
+    background-color: #ffea70;
+}
+.usernamehead, .passwordhead{
+    font-family: arial;
+    text-align: left;
+    padding-left: 44px;
+    font-size: 15px;
+}
+.signup{
+    font-size: 30px;
+    font-family: arial;
+    color: #ffea70;
+}
+.tick{
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 41px;
+    
+}
+.icon{
+    display: inline-block;
+    position: absolute;
+    height: 150px;
+    top: 15px;
+    left: -50px;
+    
+}
+.socialicons{
+    display: inline-block;
+    position: absolute;
+    height: 250px;
+    top: 250px;
+    left: 0px;
+}
+.about-us{
+    display: inline-block;
+    position: absolute;
+    height: 30px;
+    top: 400px;
+    left: 20px;
+    font-family: arial;
+    background-color: #00a2ff;
+    color: azure;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+.contact-us{
+    display: inline-block;
+    position: absolute;
+    height: 30px;
+    top: 400px;
+    left: 100px;
+    font-family: arial;
+    background-color: #00a2ff;
+    color: azure;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+body{
+    background-color: black;
+}
+.wallpapermaindiv1{
+    display: inline-block;
+    position: absolute;
+    background-color: ;
+    height: 400px;
+    width: 200px;
+    top: 600px;
+    left: 20px;
+    
+}
+.wallpapermaindiv1part1{
+    background-color:;
+    height: 50px;
+    width: 200px;
+}
+.wallpapermaindiv1part2{
+    background-color:;
+    height: 400px;
+    width: 200px; 
+}
+.potrait{
+    display: inline-block;
+    position: absolute;
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+}
+.wallpapermaindiv2{
+    display: inline-block;
+    position: absolute;
+    background-color: ;
+    height: 400px;
+    width: 200px;
+    top: 600px;
+    left: 450px;
+}
+.wallpapermaindiv2part1{
+    background-color: ;
+    height: 50px;
+    width: 200px;
+}
+.wallpapermaindiv2part2{
+    background-color:;
+    height: 350px;
+    width: 200px; 
+}
+.wallpapermaindiv3{
+    display: inline-block;
+    position: absolute;
+    background-color: ;
+    height: 400px;
+    width: 200px;
+    top: 600px;
+    left: 880px;
+}
+.wallpapermaindiv3part1{
+    background-color: ;
+    height: 50px;
+    width: 200px;
+}
+.wallpapermaindiv2part3{
+    background-color:;
+    height: 350px;
+    width: 200px; 
+    border-radius: 100px;
+}
+.wallpapermaindiv1-2{
+    display: inline-block;
+    position: absolute;
+    background-color: ;
+    height: 400px;
+    width: 200px;
+    top: 1030px;
+    left: 20px;
+    
+}
+.wallpapermaindiv1-2part1{
+    background-color: ;
+    height: 50px;
+    width: 200px;
+}
+.wallpapermaindiv1-2part2{
+    background-color:;
+    height: 400px;
+    width: 200px; 
+}
+.potrait{
+    display: inline-block;
+    position: absolute;
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+}
+.wallpapermaindiv2-2{
+    display: inline-block;
+    position: absolute;
+    background-color: ;
+    height: 400px;
+    width: 200px;
+    top: 1030px;
+    left: 450px;
+}
+.wallpapermaindiv2-2part1{
+    background-color: ;
+    height: 50px;
+    width: 200px;
+}
+.wallpapermaindiv2-2part2{
+    background-color:;
+    height: 350px;
+    width: 200px; 
+}
+.wallpapermaindiv3-2{
+    display: inline-block;
+    position: absolute;
+    background-color: ;
+    height: 400px;
+    width: 200px;
+    top: 1030px;
+    left: 880px;
+}
+.wallpapermaindiv3-2part1{
+    background-color:;
+    height: 50px;
+    width: 200px;
+}
+.wallpapermaindiv2-2part3{
+    background-color:;
+    height: 250px;
+    width: 200px; 
+    border-radius: 
+}
+.image-title1{
+    display: inline-block;
+    position: absolute;
+    font-family: arial;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 60px;
+    background: linear-gradient(196deg, #45f3ff 25%, #ffea70 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+    
