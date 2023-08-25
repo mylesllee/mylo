@@ -318,7 +318,7 @@
     font-size: 20px;
   }
   .single-wall-img{
-    height: 100%;
+    height: 300px;
     width: 100%;
     object-fit: contain;
   }
