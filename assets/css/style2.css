@@ -236,8 +236,10 @@
     overflow-x: hidden;
     line-height: 22px;
 }
-.swiper-slide {
-    background-color: ;
+.price-h2{
+  
+  margin-bottom: 20px;
+}
     
   }
   .swiper {
@@ -287,4 +289,30 @@
     font-size: 10px;
   }
  
+
+
+
+/* price html */
+
+.price-head{
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position:relative;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+.price-h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.det{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.details{
+  width: 30em;
+  padding-right: 10px;
+
 }
