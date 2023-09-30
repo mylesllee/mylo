@@ -1,0 +1,132 @@
+
+body{
+    background-color: rgb(44, 44, 44) !important;
+}
+
+.first-section{
+    
+    margin-left: 20px;
+}
+.header{
+    margin-top: 60px;
+}
+.web-samples2{
+  display: inline-flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-left: 0px;
+}
+.sample2{
+    height: 40px;
+    background-color: #00ccff;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    margin-top: 10px;
+  }
+  .sample2:hover{
+    height: 40px;
+    background-color: #ffc400;
+    transition: 300ms;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+  }
+  .sample2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .posts{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .posts h3{
+    margin-left: 20px;
+  }
+  .main{
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .post{
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px;
+    justify-content: flex-start;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .post:hover{
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    transition: 400ms;
+    width: 200px;
+    justify-content: flex-start;
+    background-color: rgba(0, 238, 255, 0.541);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .img{
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .post p{
+    padding: 5px;
+    margin-bottom: 4px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    max-height: 100%;
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+.close-button:hover {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(255, 217, 0);
+}
+.selected {
+    background-color: rgb(255, 217, 0);
+}
