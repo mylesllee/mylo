@@ -1,0 +1,213 @@
+@media screen and (max-width: 764px){
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .logo{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav{
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+.nav:hover{
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+    .nav li{
+        display: none;
+        text-decoration: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        margin: 10px;
+    }
+    .sub-div1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 250px;
+    }
+    .search{
+        height: 25px;
+        width: 246px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        background-color: rgba(223, 223, 223, 0.726);
+    }
+    .div1{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 250px;
+        margin-left: 10px;
+    }
+    .cat{
+        display: inline-flex;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        height: 50px;
+        width: 100%;
+        background-color: black;
+    }
+    .details-post h4{
+        margin: 0px;
+        font-size: 13px;
+    }
+    .ig-post{
+        height: 77px;
+        width: 77px;
+        background-color: black;
+        overflow: hidden;
+    }
+    .div2{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: auto;
+        align-items: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .post{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        position: relative;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: rgba(231, 231, 231, 0.712);
+    }
+    .image{
+        width: 100%;
+        overflow: hidden;
+        height: 250px;
+    }
+    .div2{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+   
+}
+
+@media screen  and (max-width: 664px){
+    h3{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .post{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        position: relative;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: rgb(231, 231, 231);
+    }
+    .top-posts{
+        display: inline-flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 5px;
+        background-color: rgba(231, 231, 231, 0.712);
+    }
+    .sub-div1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 160px;
+    }
+    .search{
+        height: 25px;
+        width: 156px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        background-color: rgba(223, 223, 223, 0.726);
+    }
+    .div1{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 160px;
+    }
+    .ig-post{
+        height: 48px;
+        width: 48px;
+        background-color: black;
+        overflow: hidden;
+    }
+    .image{
+        width: 100%;
+        overflow: hidden;
+        height: 200px;
+    }
+}
+
+
+@media screen  and (max-width: 1234px) and (min-width: 764px){
+    .div2{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .div1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        margin-left: 30px;
+    }
+}
+
+
+
+
+
