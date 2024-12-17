@@ -2372,6 +2372,10 @@ span.email-notes {
 }
 .sample b{
   font-size: 22px;
+  color: black !important;
+}
+.sample span{
+  color: black !important;
 }
 .web-samples1{
     display: inline-flex;
