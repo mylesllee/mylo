@@ -269,6 +269,7 @@
   margin: 15px 10px 0px 10px;
   padding: 10px 12px 10px 12px;
   border-radius: 15px;
+  line-height: 22px;
 }
 .sample:hover{
   background-color: #00ccff;
@@ -383,7 +384,7 @@
   background-color: rgb(34, 34, 34) !important;
   color: white;
 }
-.darkmode p, .darkmode h2, .darkmode h1, .darkmode h3, .darkmode h4, .darkmode h5, .darkmode footer i{
+.darkmode p, .darkmode h2, .darkmode h1, .darkmode h3, .darkmode h4, .darkmode h5, .darkmode footer i, .darkmode .footer-contacts b{
   color: white !important;
 }
 .darkmode .footer-area, .darkmode .footer-area-bottom{

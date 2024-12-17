@@ -1952,6 +1952,8 @@ span.email-notes {
 .footer-contacts p span {
   color: #3EC1D5;
   font-weight: 700;
+}.footer-contacts b{
+  color: #444 !important;
 }
 
 .popular-tag ul li {
