@@ -1,6 +1,18 @@
-
+#about .well-left .single-well{
+  overflow: hidden;
+  height: 550px;
+}
 .single-wall-img{
-    height: 510px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media Screen and (max-width: 768px) {
+  #about .well-left .single-well{
+    overflow: hidden;
+    height: 430px;
+  }
 }
 
 .through{
@@ -240,30 +252,43 @@
   
   margin-bottom: 20px;
 }
-.proto{
-  margin-left: 20px;
-}
 .proto h1{
   margin-bottom: 0px;
 }
 .web-samples{
-  display: inline-flex;
   position: relative;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  width: 100%;
 }
 .sample{
-  height: 30px;
-  background-color: #00ccff;
+  background-color: #ffdd6f;
   justify-content: center;
   align-items: center;
   border: none;
-  margin-left: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 25px;
+  margin: 15px 10px 0px 10px;
+  padding: 10px 12px 10px 12px;
+  border-radius: 15px;
+}
+.sample:hover{
+  background-color: #00ccff;
+  transition: 300ms;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 10px 12px 10px 12px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.sample a{
+  text-decoration: none;
+  color: black;
+}
+.sample b{
+  font-size: 16px;
+}
+.sample span{
+  font-size: 14px;
 }
     
   }
@@ -320,16 +345,16 @@
 /* price html */
 
 .price-head{
-  display: inline-flex;
   flex-direction: column;
   flex-wrap: wrap;
   position:relative;
   margin-top: 60px;
-  margin-left: 10px;
 }
 .price-h2{
   font-size: 30px;
+  line-height: 1.4;
   margin-bottom: 20px;
+  color: #00ccff;
 }
 .det{
   display: inline-flex;
@@ -337,7 +362,33 @@
   flex-wrap: wrap;
 }
 .details{
-  width: 30em;
+  width: 32%;
   padding-right: 10px;
+  margin-bottom: 10px;
 
 }
+@media Screen and (max-width: 768px) {
+  .details{
+    width: 95%;
+    padding-right: 10px;
+  
+  }
+}
+
+
+
+/* dark mode */
+
+.darkmode{
+  background-color: rgb(34, 34, 34) !important;
+  color: white;
+}
+.darkmode p, .darkmode h2, .darkmode h1, .darkmode h3, .darkmode h4, .darkmode h5, .darkmode footer i{
+  color: white !important;
+}
+.darkmode .footer-area, .darkmode .footer-area-bottom{
+  background-color: black !important;
+}
+/* .darkmode footer p, footer h2, footer h1, footer h3, footer h4, footer h5{
+  color: black !important;
+} */
