@@ -1946,7 +1946,9 @@ span.email-notes {
 .footer-icons {
   margin-top: 30px;
 }
-
+.footer-contacts p{
+  color: black;
+}
 .footer-contacts p span {
   color: #3EC1D5;
   font-weight: 700;
@@ -2364,7 +2366,7 @@ span.email-notes {
   border-radius: 15px;
   margin-top: 10px;
 }
-.sample a{
+.web-samples a, .pricebtn a{
   text-decoration: none;
   color: black;
 }
