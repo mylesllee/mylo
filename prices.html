@@ -35,7 +35,7 @@
  
 </head>
 
-<body>
+<body class="darkmode">
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
@@ -52,8 +52,12 @@
           <li><a class="nav-link scrollto " href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
           <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
-          <li><a class="nav-link scrollto active" href="prices.html">Prices</a></li>
-          <li><a class="nav-link scrollto" href="index.html#portfolio">Sample Projects</a></li>
+          <li><a class="nav-link scrollto active" href="prices.html">Prices</a></li><li class="dropdown"><a href=""><span>Sample works</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="index.html#portfolio">Sample Projects</a></li>
+              <li><a href="index.html#samples">Work Samples</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="graphics.html">Graphics</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -68,9 +72,6 @@
                   <li><a href="index.html#services">Photography</a></li>
                 </ul>
               </li>
-              <li><a href="index.html#services">Javascript</a></li>
-              <li><a href="index.html#services">Python</a></li>
-              <li><a href="index.html#services">HTML & CSS</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact" style="margin-right: 10px;">Contact</a></li>
@@ -82,14 +83,18 @@
     </div>
   </header><!-- End Header -->
 
-  <section>
+  <section class="container">
     <div class="price-head">
-        <h2 class="price-h2" style="font-size: 25px;">Price Packages:</h2>
+        <h2 class="price-h2" style="font-size: 25px; color: white;"><b>Price Packages:</b></h2>
         <div class="web-samples1">
-          <button class="sample1" ><a href="#web"><b>Website Prices</b></a></button>
-          <button class="sample1" ><a href="#graphics"><b>Graphics Designing Prices</b></a></button>
+          <a href="#web"><button class="sample1" ><b>Website Prices</b></button></a>
+          <a href="#mobileapp"><button class="sample1" ><b>Mobile App Prices</b></button></a>
+          <a href="#graphics"><button class="sample1" ><b>Graphics Designing Prices</b></button></a>
+          <a href="index.html"><button class="sample1" ><b>Home</b></button></a>
         </div>
-        <h2 class="price-h2" id="web" style="font-size: 17px;"><b>Web Development:</b></h2>
+
+        <!--website-->
+        <h2 class="price-h2  mt-4" id="web" style="font-size: 25px;"><b>Website Development:</b></h2>
         <div class="det">
             <div class="details">
                 <h3 style="margin-bottom: 0px; font-size: 20px;"><b>Basic</b></h3>
@@ -107,7 +112,7 @@
                 Advanced website Application with database functionality and more features.</p>
             </div>
         </div>
-        <div class="table">
+        <div class="table mt-2">
             <div class="table-responsive">
                 <table class="table table-primary">
                     <thead>
@@ -231,9 +236,9 @@
         <p >Express delivery: USD 15 Tshs 35,000 (2-3 Days earlier) For Basic and USD 40 Tshs 100,000 (3-4 Days earlier) For Medium Websites<br>
             Extra webpage: USD 20 Tshs 50,000 Per page.</p>
         </div>
-        <h3 style="margin-bottom: 0px; font-size: 18px;"><b>MILESTONES:</b></h3>
+        <h3 style="margin-bottom: 0px; font-size: 18px;" class="mt-3"><b>MILESTONES:</b></h3>
         <p>NB: All services are provided in milestones. Contact Service provider for more information.</p>
-        <div class="table">
+        <div class="table mt-2">
             <div class="table-responsive">
                 <table class="table table-primary">
                     <thead>
@@ -273,9 +278,152 @@
                 </table>
             </div>
         </div>
-        <h2 class="price-h2" style="font-size: 17px;" id="graphics"><b>Graphic Designing:</b></h2>
+
+
+        <!--mobile apps-->
+        <h2 class="price-h2  mt-5" id="mobileapp" style="font-size: 25px;"><b>Mobile App Development: (Both Android & IOS)</b></h2>
+        <div class="det">
+            <div class="details">
+                <h3 style="margin-bottom: 0px; font-size: 20px;"><b>Basic</b></h3>
+                <p >Personal / basic app <br>
+                  A simple mobile app showcasing personal or portfolio information with basic features and design.</p>
+            </div>
+            <div class="details">
+                <h3 style="margin-bottom: 0px; font-size: 20px;"><b>Medium</b></h3>
+            <p >Database Driven App <br>
+              A mobile app with database functionality, custom features, and enhanced design elements.</p>
+            </div>
+            <div class="details">
+                <h3 style="margin-bottom: 0px; font-size: 20px;"><b>Premium</b></h3>
+            <p >Enterprise Level App <br>
+              Advanced mobile app with complex features, database integration, and scalable architecture, designed for high performance and user engagement.</p>
+            </div>
+        </div>
+        <div class="table mt-2">
+            <div class="table-responsive">
+                <table class="table table-primary">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Basic</th>
+                            <th scope="col">Medium</th>
+                            <th scope="col">Premium</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="">
+                            <td scope="row">Free Consultation</td>
+                            <td>&#x2713;</td>
+                            <td>&#x2713;</td>
+                            <td>&#x2713;</td>
+                        </tr>
+                        <tr class="">
+                            <td scope="row">Delivery Days</td>
+                            <td>Up to 14</td>
+                            <td>Up to 35</td>
+                            <td>Up to 45</td>
+                        </tr>
+                        <tr class="">
+                            <td scope="row">Number of Screens</td>
+                            <td>Up to 5</td>
+                            <td>Custom</td>
+                            <td>Custom</td>
+                        </tr>
+                        <tr class="">
+                            <td scope="row">Functional Android</td>
+                            <td>&#x2713;</td>
+                            <td>&#x2713;</td>
+                            <td>&#x2713;</td>
+                        </tr>
+                        <tr class="">
+                          <td scope="row">Functional IOS</td>
+                          <td>&#x2713;</td>
+                          <td>&#x2713;</td>
+                          <td>&#x2713;</td>
+                      </tr>
+                          <tr class="">
+                            <td scope="row">Revisions</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>4</td>
+                        </tr>
+                        <tr class="">
+                            <td scope="row">Content Upload</td>
+                            <td>-</td>
+                            <td>&#x2713;</td>
+                            <td>&#x2713;</td>
+                        </tr>
+                        <tr class="">
+                          <td scope="row">Animations</td>
+                          <td>-</td>
+                          <td>-</td>
+                          <td>&#x2713;</td>
+                      </tr>
+                       <tr class="">
+                            <td scope="row">Admin Panel</td>
+                            <td>-</td>
+                            <td>&#x2713;</td>
+                            <td>&#x2713;</td>
+                        </tr>
+                        <tr class="">
+                            <td scope="row">Ecommerce Functionality</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>&#x2713;</td>
+                        </tr>
+                        <tr class="">
+                            <td scope="row">Payment Processing</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>&#x2713;</td>
+                        </tr>
+                        <tr class="">
+                            <td scope="row">Auto-responder intergration</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>&#x2713;</td>
+                        </tr>
+                        <tr class="">
+                          <td scope="row">App Submission</td>
+                          <td>&#x2713;</td>
+                          <td>&#x2713;</td>
+                          <td>&#x2713;</td>
+                        </tr>
+                        <tr class="">
+                          <td scope="row">Ad network integration</td>
+                          <td>-</td>
+                          <td>-</td>
+                          <td>&#x2713;</td>
+                        </tr>
+                        <tr class="">
+                            <td scope="row">Users (Sign Ups)</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>&#x2713;</td>
+                        </tr>
+                        <tr class="">
+                            <td scope="row"><b>Prices From:</b></td>
+                            <td>USD <b>250</b> <br>Tshs <b>625,000</b></td>
+                            <td>USD <b>600</b> <br>Tshs <b>1,500,000</b></td>
+                            <td>USD <b>1,200</b> <br>Tshs <b>3,000,000</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+        <h3 style="margin-bottom: 0px; font-size: 18px;" class="mt-3"><b>MILESTONES:</b></h3>
+        <p>NB: All services are provided in milestones. Contact Service provider for more information.</p>
+
+
+
+
+
+
+        <!-- graphics-->
+        <h2 class="price-h2 mt-5" style="font-size: 25px;" id="graphics"><b>Graphic Designing:</b></h2>
         <p>NB: Advance payment is compulsory. Half Payment of the declared price by service provider. Contact service provider for Payment Number/Account.</p>
-        <div class="table">
+        <div class="table mt-2">
           <div class="table-responsive">
               <table class="table table-primary">
                   <thead>
@@ -453,11 +601,11 @@
               <div class="footer-head">
                 <h4>Instagram</h4>
                 <div class="flicker-img">
-                  <a href="https://www.instagram.com/creationprimal/"><img src="assets/img/slider/web 6.jpg" alt=""></a>
+                  <a href="https://www.instagram.com/creationprimal/"><img src="assets/img/slider/photo1.jpg" alt=""></a>
                   <a href="https://www.instagram.com/creationprimal/"><img src="assets/img/slider/photo_2023-08-17_20-51-50.jpg" alt=""></a>
-                  <a href="https://www.instagram.com/creationprimal/"><img src="assets/img/slider/photo_2023-08-17_20-52-01.jpg" alt=""></a>
-                  <a href="https://www.instagram.com/creationprimal/"><img src="assets/img/slider/photo_2023-08-17_20-52-08.jpg" alt=""></a>
-                  <a href="https://www.instagram.com/creationprimal/"><img src="assets/img/slider/photo_2023-08-17_20-52-23.jpg" alt=""></a>
+                  <a href="https://www.instagram.com/creationprimal/"><img src="assets/img/slider/photo2.jpg" alt=""></a>
+                  <a href="https://www.instagram.com/creationprimal/"><img src="assets/img/slider/photo4.jpg" alt=""></a>
+                  <a href="https://www.instagram.com/creationprimal/"><img src="assets/img/slider/photo3.jpg" alt=""></a>
                   <a href="https://www.instagram.com/creationprimal/"><img src="assets/img/slider/web 13.jpg" alt=""></a>
                 </div>
               </div>
@@ -477,7 +625,7 @@
             </div>
             <div class="credits">
              
-              Designed by <a href="https://www.instagram.com/creationprimal/">Myles</a>
+              <p>Designed by <a href="https://www.instagram.com/creationprimal/">Myles</a></p>
             </div>
           </div>
         </div>
